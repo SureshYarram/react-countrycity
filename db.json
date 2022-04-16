@@ -1,0 +1,38 @@
+{
+  "countries": [
+    {
+      "country": "India",
+      "id": 1
+    },
+    {
+      "country": "USA",
+      "id": 2
+    },
+    {
+      "country": "Russia",
+      "id": 3
+    },
+    {
+      "country": "japan",
+      "id": 4
+    },
+    {
+      "country": "america",
+      "id": 5
+    }
+  ],
+  "cities": [
+    {
+      "city": "hyderabd",
+      "population": "3500000",
+      "country": "japan",
+      "id": 1
+    },
+    {
+      "city": "california",
+      "population": "40000",
+      "country": "USA",
+      "id": 2
+    }
+  ]
+}

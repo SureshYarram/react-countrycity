@@ -1,38 +1,58 @@
-.App {
+#navbar{
+  background-color: lightslategrey;
+}
+
+h1{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
   text-align: center;
+  margin-bottom: 32px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+  padding: 3% 1%;
+  text-align: center;
+  margin: auto;
+  height: 450px;
+  width: 28%;
+  font-size: 20px;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  width: 200px;
+  font-size: 14px;
+  padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#btns{
+  margin-left: 29%;
+  margin-bottom: 2%;
+}
+#btns{
+  margin-left: 18%;
+  margin-bottom: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+#btnsSort{
+  margin-left: 8%;
+  margin-bottom: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btns>button{
+  padding: 12px 19px;
+  font-size: 20px;
+  background-color: rgb(59, 130, 180);
+}
+
+#submit{
+  font-size: 18px;
+  background-color: rgb(16, 17, 19);
+  color: rgb(217, 235, 248);
+}
+
+#navbar{
+  margin-bottom: 2%;
 }
